@@ -1,0 +1,149 @@
+body{
+	background-color: #f0f2f5;
+	margin: 0px;
+	height:	100%;
+}
+
+.FLEX{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	flex-wrap: wrap;
+}
+
+.wrapper{
+	position: relative;
+	height: 100%;
+	
+}
+.FB_title{
+	box-sizing: border-box;
+	margin-right: 0;
+	padding-right: 32px;
+	width: 400px;
+	margin: auto;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.Under_FB_title{
+	font-size:25px;
+	line-height: 28px;
+	width: auto;
+}
+
+.FB_login{
+	display: inline-block;
+	vertical-align: top;
+	margin: auto;
+	height: 456px;
+	width: 396px;
+}
+
+.login{
+	justify-content:center;
+	align-items: center;
+	text-align: center;
+	padding-bottom: 24px;
+	padding-top: 10px;
+	margin: auto;
+}
+
+.box{
+	align-items: center;
+	background-color: white;
+	border: none;
+	border-radius: 8px;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+	box-sizing: border-box;
+	margin: 40px 0 0;
+	padding: 20px 0 28px;
+	width: 396px;
+}
+
+.inputtext{
+	font-size: 18px;
+	padding: 14px 16px;
+	width: 364px;
+	border: 1px solid #dddfe2;
+	border-radius: 8px;
+	color: #1d2129;
+	outline: none;
+	caret-color: rgb(0, 81, 255);
+	vertical-align: middle;
+}
+
+.login_button{
+	background-color: #1877f2;
+	border: none;
+	border-radius: 6px;
+	width: 332px;
+	font-size: 21px;
+	line-height: 48px;
+	padding: 0 16px;
+	box-sizing: content-box;
+	color: #fff;
+	font-weight: bold;
+	color: #fff;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.under_login{
+	color: #1c1e21;
+	font-size: 15px;
+	font-weight: normal;
+	padding: 40 0;
+}
+
+.forget{
+	margin-top: 16px;
+}
+
+.forget a{
+	color: #1877f2; 
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+._new{
+	background-color: #42b72a;
+	color: #fff;
+	font-weight: bold;
+	display: inline-block;
+	text-decoration: none;
+	border: none;
+	border-radius: 6px;
+	font-size: 18px;
+	line-height: 48px;
+	padding: 0 16px;
+}
+
+.Footer{
+	background-color: white;
+	font-size: 13px;
+}
+
+.pagefooter{
+	padding: 15 32 5 32;
+}
+
+.print_style{
+	font-family: inherit;
+	padding-left: 10px;
+	text-decoration: none;
+	color: #737373;
+}
+
+.line{
+	border-bottom: 1px solid #dddfe2;
+	font-size: 2px;
+	height: 8px;
+	margin-bottom: 8px;
+}
+
+.mv1{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
